@@ -5,3 +5,8 @@ def position_taken?(board = Array.new(9, " "), pos = 0)
   end
   return false
 end
+
+board = ["", " ", " ", " ", " ", " ", " ", " ", " "]
+index = 0
+
+puts position_taken?(board, index)
