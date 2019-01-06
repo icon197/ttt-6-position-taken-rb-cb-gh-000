@@ -5,8 +5,3 @@ def position_taken?(board, pos)
   end
   return false
 end
-
-# board = ["", " ", " ", " ", " ", " ", " ", " ", " "]
-# index = 0
-#
-# puts position_taken?(board, index)
