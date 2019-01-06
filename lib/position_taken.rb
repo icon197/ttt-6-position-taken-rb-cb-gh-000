@@ -6,7 +6,7 @@ def position_taken?(board = Array.new(9, " "), pos = 0)
   return false
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
 puts position_taken?(board, index)
